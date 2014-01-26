@@ -1,28 +1,28 @@
 package com.example.mylibgdxgame.screens;
 
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.*;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.List;
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
+import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.example.mylibgdxgame.controllers.LevelSelectorController;
 
 /**
  * Created by Dídac on 19/01/14.
  */
-public class LevelSelector implements Screen {
+public class LevelSelectorMenu implements Screen {
 
     private Skin skin;
     private Stage stage;
     private Table table;
-    private Label number;
-    private List list;
+    private static Label number;
+    private static List list;
     private ScrollPane scrollPane;
     private TextButton play, back;
 
@@ -37,8 +37,11 @@ public class LevelSelector implements Screen {
         table = new Table(skin); //used to align the components on the screen
         table.debug(); // we enable the debug lines
 
-        number = new Label("1",skin); // label which represents the level currently selected
+        number = new Label("",skin); // label which represents the level currently selected
+
         list = new List( new String[] { "one", "two", "three" }, skin ); // the list of levels displayed in the scrollPane
+        list.setSelectable(true);
+        list.setSelectedIndex(-1);
 
         scrollPane = new ScrollPane(list,skin);
         play = new TextButton("SELECT",skin);
@@ -73,7 +76,7 @@ public class LevelSelector implements Screen {
         back.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                ((Game) Gdx.app.getApplicationListener()).setScreen(new MainMenu());
+                LevelSelectorController.mainMenuScreen();
             }
         });
         back.pad(10);
@@ -82,6 +85,15 @@ public class LevelSelector implements Screen {
     private void configNumber() {
         number.setFontScale(2);
         number.setColor(0.6f, 0.1f, 0.6f, 1);
+    }
+
+    private void configList() {
+        list.addListener( new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                LevelSelectorController.applySelection(list.getSelectedIndex());
+            }
+        });
     }
 
     @Override
@@ -111,8 +123,9 @@ public class LevelSelector implements Screen {
 
         configNumber();
         configButtons();
-        //configTable() is not called here because the resize method is called when the screen starts, so we call it only in the resize method.
+        configList();
 
+        //configTable() is not called here because the resize method is called when the screen starts, so we call it only in the resize method.
         stage.addActor(table);
 
     }
@@ -140,4 +153,9 @@ public class LevelSelector implements Screen {
         skin.dispose();
 
     }
+
+    public static void setImage(String image) {
+        number.setText(image);
+    }
+
 }

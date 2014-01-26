@@ -3,10 +3,12 @@ package com.example.mylibgxgame;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.example.mylibgdxgame.MyLibgdxGame;
+import com.example.mylibgdxgame.controllers.FrontController;
 
 /**
  * Created by Dídac on 18/01/14.
  */
+
 public class DesktopStarter {
     public static void main(String[] args) {
         System.setProperty("user.name","Development Team");
@@ -16,6 +18,10 @@ public class DesktopStarter {
         cfg.useGL20 = true;
         cfg.width = 800;
         cfg.height = 480;
-        new LwjglApplication(new MyLibgdxGame(), cfg);
+        //cfg.fullscreen = true;
+
+        new FrontController(cfg);
+        FrontController.main();
+        //new LwjglApplication(new MyLibgdxGame(), cfg);
     }
 }

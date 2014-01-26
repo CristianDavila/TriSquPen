@@ -23,7 +23,14 @@
 	},
 	com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
 	    default: { hScrollKnob: button.up, vScrollKnob: button.up }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	    default: { font: white, checkboxOn: checkbox.on, checkboxOff: checkbox.off, checkboxOver: checkbox.over}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	    default: { font: black, selection: default.selection, background: button.up }
 	}
+
 
 
 }

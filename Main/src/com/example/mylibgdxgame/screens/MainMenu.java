@@ -3,7 +3,6 @@ package com.example.mylibgdxgame.screens;
 import aurelienribon.tweenengine.Timeline;
 import aurelienribon.tweenengine.Tween;
 import aurelienribon.tweenengine.TweenManager;
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.audio.Music;
@@ -18,11 +17,13 @@ import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.example.mylibgdxgame.MyLibgdxGame;
+import com.example.mylibgdxgame.controllers.MainController;
 import com.example.mylibgdxgame.tween.ActorAccessor;
 
 /**
  * Created by Dídac on 19/01/14.
  */
+
 public class MainMenu implements Screen {
 
     private Stage stage;
@@ -30,7 +31,7 @@ public class MainMenu implements Screen {
     private Sprite background;
     private Skin skin;
     private Table table;
-    private TextButton playButton, exitButton;
+    private TextButton playButton, exitButton, settingsButton;
     private Label heading;
     private TweenManager tweenManager;
     private Music mainTheme;
@@ -56,9 +57,11 @@ public class MainMenu implements Screen {
 
         heading = new Label(MyLibgdxGame.title,skin);
 
-        playButton = new TextButton("PLAY", skin);
+        playButton = new TextButton("Play", skin);
 
-        exitButton = new TextButton("EXIT", skin);
+        exitButton = new TextButton("Exit", skin);
+
+        settingsButton = new TextButton("Settings", skin);
 
         tweenManager = new TweenManager(); // The controller of the animations
         Tween.registerAccessor(Actor.class,new ActorAccessor()); // we must register which specific accessor handles the class to control
@@ -69,13 +72,16 @@ public class MainMenu implements Screen {
 
         table.setFillParent(true);
         table.add(heading).colspan(2).expand().center();
-        table.row().height(Gdx.graphics.getHeight()/6);
+        table.row().height(Gdx.graphics.getHeight()/9);
         table.add().colspan(2).expandX();
         table.add(playButton).left().expandX().padRight(Gdx.graphics.getHeight()/8).spaceBottom(20).fill();
-        table.row().height(Gdx.graphics.getHeight()/6);
+        table.row().height(Gdx.graphics.getHeight()/9);
+        table.add().colspan(2).expandX();
+        table.add(settingsButton).left().expandX().padRight(Gdx.graphics.getHeight()/8).spaceBottom(20).fill();
+        table.row().height(Gdx.graphics.getHeight()/9);
         table.add().colspan(2).expandX();
         table.add(exitButton).left().expandX().padRight(Gdx.graphics.getHeight()/8).fill();
-        table.row().height(Gdx.graphics.getHeight()/8);
+        table.row().height(Gdx.graphics.getHeight()/9);
         table.add();
 
         stage.addActor(table);
@@ -115,7 +121,7 @@ public class MainMenu implements Screen {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 mainTheme.stop();
-                ((Game) Gdx.app.getApplicationListener()).setScreen(new LevelSelector());
+                MainController.playScreen();
             }
         });
         playButton.pad(15);//if we didn't pad, the button would be of the same size as the text
@@ -124,10 +130,20 @@ public class MainMenu implements Screen {
         exitButton.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                Gdx.app.exit();
+                MainController.exit();
             }
         });
         exitButton.pad(15);//if we didn't pad, the button would be of the same size as the text
+
+        //When the settings button is pressed the execution is terminated
+        settingsButton.addListener(new ClickListener() {
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                mainTheme.stop();
+                MainController.settingsScreen();
+            }
+        });
+        settingsButton.pad(15);
 
     }
 

@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyLibgdxGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyLibgdxGame_jar</output-path>
+    <root id="archive" name="MyLibgdxGame.jar">
+      <element id="module-output" name="Android" />
+      <element id="module-output" name="Main" />
+      <element id="module-output" name="Desktop" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Android/libs/gdx-backend-android.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Desktop/libs/gdx-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Desktop/libs/gdx-backend-lwjgl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Desktop/libs/gdx-backend-lwjgl-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Main/libs/gdx.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Main/libs/gdx-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Main/libs/tween-engine-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Main/libs/tween-engine-api-sources.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

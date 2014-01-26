@@ -11,6 +11,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.example.mylibgdxgame.controllers.MainController;
 import com.example.mylibgdxgame.tween.SpriteAccessor;
 
 /**
@@ -40,7 +41,8 @@ public class Splash implements Screen {
         Tween.to(splash,SpriteAccessor.alpha,1).target(1).repeatYoyo(1,1).setCallback(new TweenCallback() {
             @Override
             public void onEvent(int type, BaseTween<?> source) {
-                ((Game) (Gdx.app.getApplicationListener())).setScreen(new MainMenu());
+                new MainController();
+                MainController.main();
             }
         }).start(tweenManager);
 
