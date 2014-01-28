@@ -11,6 +11,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.example.mylibgdxgame.controllers.FrontController;
 import com.example.mylibgdxgame.controllers.MainController;
 import com.example.mylibgdxgame.tween.SpriteAccessor;
 
@@ -41,8 +42,7 @@ public class Splash implements Screen {
         Tween.to(splash,SpriteAccessor.alpha,1).target(1).repeatYoyo(1,1).setCallback(new TweenCallback() {
             @Override
             public void onEvent(int type, BaseTween<?> source) {
-                new MainController();
-                MainController.main();
+                FrontController.mainMenu();
             }
         }).start(tweenManager);
 
@@ -54,12 +54,12 @@ public class Splash implements Screen {
         Gdx.gl.glClearColor(0,0,0,1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-        tweenManager.update(delta);
-
         //to paint in the batch we have to open it, and then the object paints itself on it
         batch.begin();
         splash.draw(batch);
         batch.end();
+
+        tweenManager.update(delta);
 
     }
 
@@ -78,7 +78,7 @@ public class Splash implements Screen {
 
     @Override
     public void hide() {
-
+        dispose();
     }
 
     @Override

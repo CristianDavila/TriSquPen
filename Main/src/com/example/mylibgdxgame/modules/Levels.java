@@ -1,6 +1,8 @@
 package com.example.mylibgdxgame.modules;
 
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.example.mylibgdxgame.screens.LevelSelectorMenu;
 
 import java.util.ArrayList;
@@ -8,15 +10,23 @@ import java.util.ArrayList;
 /**
  * Created by Dídac on 26/01/14.
  */
+
 public class Levels {
 
     static class LevelInstance{
-        //Level level;
+        Level level;
         String image;
 
         public LevelInstance(String a) {
             image = a;
         }
+
+        public LevelInstance(String a, Level newLevel) {
+            image = a;
+            level = newLevel;
+        }
+
+
     }
 
     private static ArrayList<LevelInstance> levelsSet;
@@ -30,10 +40,17 @@ public class Levels {
     }
 
     //Sets a new set of levels
-    public static void setLevels(String[] image) {
+    public static void setLevels(String[] image, ArrayList<Level> newLevelsSet) {
+
         for (int a = 0; a < image.length; a++) {
-            levelsSet.add(a,new LevelInstance(image[a]));
+            String icon = image[a];
+            if(a<newLevelsSet.size()) {
+                Level instLevel = newLevelsSet.get(a);
+                levelsSet.add(a,new LevelInstance(icon,instLevel));
+            }
+            else levelsSet.add(a,new LevelInstance(icon));
         }
+
     }
 
     //Deletes a list of levels
@@ -51,13 +68,17 @@ public class Levels {
     }
 
     //Returns the current selected level
-    public int getCurrent(){
+    public static int getCurrent(){
+
         return current;
+
     }
 
     //Sets the current selected level
     public static void setCurrent(int num) {
+
         current = num;
+
     }
 
     public static void update() {

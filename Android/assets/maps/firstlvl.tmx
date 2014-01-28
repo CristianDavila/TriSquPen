@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="37" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="t4zs6q" tilewidth="32" tileheight="32">
+  <image source="t4zs6q.png" trans="ffffff" width="320" height="384"/>
+ </tileset>
+ <tileset firstgid="121" name="21708_1146558409" tilewidth="32" tileheight="32">
+  <image source="21708_1146558409.PNG" trans="308d10" width="288" height="256"/>
+ </tileset>
+ <imagelayer name="Background" width="50" height="37">
+  <image source="3d-space-scene-hd-wallpapers-desktop.jpg"/>
+ </imagelayer>
+ <layer name="Asteroids" width="50" height="37">
+  <data encoding="base64" compression="zlib">
+   eJzdWMtOAzEMdHm/Hy1whStc4QpXuMK1XOkVPqOfzUStRRSpu+vYibOMNFpVTTZWPHFmPSeiT/AUPAPPwQvwEpyCM/AKPAZPGh73Ab6vn2MDxz2hVS7m6+fYwHGHnD04x2KBa/Bpw3/LmoEocUs+58L6PN5TnXORxm19Hh+pTj5y4t4GdwaOfc54fy3wfTEEr+CiYCy1EHT74x2EAYJut6LfEk0GTJL5XviilXdhDNFkHDt7n1xY1d9v8EY4Rxt7DKv6G/b2LnNeC3pisL+SngvLnFiA/ZWkVreI4K9eFPOleZRAUgOCv3pTrDU0jzl1SVIDWvZXElj7K6/v49hfpVrP0b7X93Hsr1Ktl65hljUi9VebUEIvlvsU+6uu/Wm9nxL7qzHfhbn+KoV3H8+qf+Wtu67+lQVq5Unrr/pQK09af1XSJ0rW0vorbY2T6K5rrT5/VXq/rXTX178ay53yn/pX3neYFhw/a5TPwi64B+6DB+AheER/PZLWxnH8v6HXKX8=
+  </data>
+ </layer>
+</map>

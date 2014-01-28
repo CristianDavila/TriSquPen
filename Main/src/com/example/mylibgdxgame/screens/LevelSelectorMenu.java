@@ -70,9 +70,16 @@ public class LevelSelectorMenu implements Screen {
 
     private void configButtons() {
 
+        // When the select button is pressed the level is displayed
+        play.addListener(new ClickListener() {
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                LevelSelectorController.levelScreen();
+            }
+        });
         play.pad(10);
 
-        // When the back button is pressed the execution is terminated
+        // When the back button is pressed the user is returned to the main menu
         back.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -80,6 +87,8 @@ public class LevelSelectorMenu implements Screen {
             }
         });
         back.pad(10);
+
+
     }
 
     private void configNumber() {
@@ -132,7 +141,7 @@ public class LevelSelectorMenu implements Screen {
 
     @Override
     public void hide() {
-
+        dispose();
     }
 
     @Override

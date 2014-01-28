@@ -104,9 +104,11 @@ public class MainMenu implements Screen {
         //Title and buttons go from invisible to visible gradually
         Timeline.createSequence().beginSequence()
                 .push(Tween.set(playButton,ActorAccessor.alpha).target(0))
+                .push(Tween.set(settingsButton,ActorAccessor.alpha).target(0))
                 .push(Tween.set(exitButton,ActorAccessor.alpha).target(0))
                 .push(Tween.from(heading, ActorAccessor.alpha, 0.5f).target(0))
                 .push(Tween.to(playButton, ActorAccessor.alpha, 0.25f).target(1))
+                .push(Tween.to(settingsButton, ActorAccessor.alpha, 0.25f).target(1))
                 .push(Tween.to(exitButton, ActorAccessor.alpha, 0.25f).target(1))
                 .end().start(tweenManager);
 
@@ -158,10 +160,11 @@ public class MainMenu implements Screen {
         background.draw(batch);
         batch.end();
 
+        tweenManager.update(delta);
+
         stage.act(delta);
         stage.draw(); //if the stage is not drown nothing is displayed beside the sprite
 
-        tweenManager.update(delta);
 
         Table.drawDebug(stage); //being the debug of the table enabled, we now can draw the debug lines
 
@@ -190,7 +193,7 @@ public class MainMenu implements Screen {
 
     @Override
     public void hide() {
-
+        dispose();
     }
 
     @Override

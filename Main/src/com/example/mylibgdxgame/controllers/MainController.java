@@ -9,22 +9,26 @@ import com.example.mylibgdxgame.screens.MainMenu;
  */
 public class MainController {
 
+    private static  MainMenu mainMenu;
+
+    public MainController() {
+        mainMenu = new MainMenu();
+    }
+
     public static void main() {
-        ((Game) (Gdx.app.getApplicationListener())).setScreen(new MainMenu());
+        ((Game) (Gdx.app.getApplicationListener())).setScreen(mainMenu);
     }
 
     public static void playScreen() {
-        new LevelSelectorController();
-        LevelSelectorController.main();
+        FrontController.levelSelectorMenu();
     }
 
     public static void settingsScreen() {
-        new SettingsController();
-        SettingsController.main();
+        FrontController.settingsMenu();
     }
 
     public static void exit() {
-        Gdx.app.exit();
+        FrontController.exit();
     }
 
 }

@@ -4,7 +4,8 @@
 		black: { r: 0, g: 0, b: 0, a: 1 },
 		red:   { r: 1, g: 0, b: 0, a: 1 },
 		green: { r: 0, g: 1, b: 0, a: 1 },
-		blue:  { r: 0, g: 0, b: 1, a: 1 }
+		blue:  { r: 0, g: 0, b: 1, a: 1 },
+		grey:  { r: 0.3, g: 0.3, b: 0.3, a: 1 }
 	},
 	com.badlogic.gdx.graphics.g2d.BitmapFont: {
 		white: { file: fonts/32/white.fnt },
@@ -28,7 +29,7 @@
 	    default: { font: white, checkboxOn: checkbox.on, checkboxOff: checkbox.off, checkboxOver: checkbox.over}
 	},
 	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
-	    default: { font: black, selection: default.selection, background: button.up }
+	    default: { font: black, fontColor: black, messageFontColor: grey, selection: default.selection, background: default.background }
 	}
 
 
