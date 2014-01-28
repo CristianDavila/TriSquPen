@@ -10,7 +10,7 @@ import com.example.mylibgdxgame.screens.Splash;
 
 public class MyLibgdxGame extends Game {
 
-    public static String title = "JavaGame", version = "0.0.0.0";
+    public static String title = "TriSquPen", version = "0.0.0.1";
 
     @Override
     public void create() {

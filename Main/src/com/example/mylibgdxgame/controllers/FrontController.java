@@ -14,12 +14,14 @@ public class FrontController {
     private static MainController mainController;
     private static LevelSelectorController levelSelectorController;
     private static SettingsController settingsController;
+    private static StaminaController staminaController;
 
     public FrontController(LwjglApplicationConfiguration config) {
         this.config = config;
-        mainController = new MainController();
-        levelSelectorController = new LevelSelectorController();
-        settingsController = new SettingsController();
+        mainController = new MainController(this);
+        levelSelectorController = new LevelSelectorController(this);
+        settingsController = new SettingsController(this);
+        staminaController = new StaminaController();
     }
 
     public static void main(){

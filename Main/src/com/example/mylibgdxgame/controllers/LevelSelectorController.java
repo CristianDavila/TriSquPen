@@ -20,10 +20,13 @@ public class LevelSelectorController {
     private static TmxMapLoader loader;
     private static ArrayList<Level> levelsSet;
 
+    private static FrontController frontController;
+
     private static LevelScreen levelScreen;
     private static LevelSelectorMenu levelSelectorMenu;
 
-    public LevelSelectorController() {
+    public LevelSelectorController(FrontController controller) {
+        frontController = controller;
         levelScreen = new LevelScreen();
         levelSelectorMenu = new LevelSelectorMenu();
 
@@ -48,7 +51,7 @@ public class LevelSelectorController {
     }
 
     public static void mainMenuScreen() {
-        FrontController.mainMenu();
+        frontController.mainMenu();
     }
 
     public static void levelScreen() {

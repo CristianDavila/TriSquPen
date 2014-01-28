@@ -8,9 +8,11 @@ import com.example.mylibgdxgame.screens.SettingsMenu;
  * Created by Dídac on 26/01/14.
  */
 public class SettingsController {
-        private static SettingsMenu settingsMenu;
+    private static SettingsMenu settingsMenu;
+    private static FrontController frontController;
 
-    public SettingsController() {
+    public SettingsController(FrontController controller) {
+        frontController = controller;
         settingsMenu = new SettingsMenu();
     }
 
@@ -19,7 +21,7 @@ public class SettingsController {
     }
 
     public static void mainMenu() {
-        FrontController.mainMenu();
+        frontController.mainMenu();
     }
 
 }

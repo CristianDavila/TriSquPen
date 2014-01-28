@@ -35,6 +35,11 @@ public class MainMenu implements Screen {
     private Label heading;
     private TweenManager tweenManager;
     private Music mainTheme;
+    private MainController mainController;
+
+    public MainMenu(MainController controller){
+        mainController = controller;
+    }
 
     private void initializeComponents() {
 
@@ -123,7 +128,7 @@ public class MainMenu implements Screen {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 mainTheme.stop();
-                MainController.playScreen();
+                mainController.playScreen();
             }
         });
         playButton.pad(15);//if we didn't pad, the button would be of the same size as the text
@@ -132,7 +137,7 @@ public class MainMenu implements Screen {
         exitButton.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                MainController.exit();
+                mainController.exit();
             }
         });
         exitButton.pad(15);//if we didn't pad, the button would be of the same size as the text
@@ -142,7 +147,7 @@ public class MainMenu implements Screen {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 mainTheme.stop();
-                MainController.settingsScreen();
+                mainController.settingsScreen();
             }
         });
         settingsButton.pad(15);

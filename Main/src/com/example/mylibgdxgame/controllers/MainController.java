@@ -9,10 +9,12 @@ import com.example.mylibgdxgame.screens.MainMenu;
  */
 public class MainController {
 
-    private static  MainMenu mainMenu;
+    private static MainMenu mainMenu;
+    private static FrontController frontController;
 
-    public MainController() {
-        mainMenu = new MainMenu();
+    public MainController(FrontController controller) {
+        frontController = controller;
+        mainMenu = new MainMenu(this);
     }
 
     public static void main() {
@@ -20,15 +22,15 @@ public class MainController {
     }
 
     public static void playScreen() {
-        FrontController.levelSelectorMenu();
+        frontController.levelSelectorMenu();
     }
 
     public static void settingsScreen() {
-        FrontController.settingsMenu();
+        frontController.settingsMenu();
     }
 
     public static void exit() {
-        FrontController.exit();
+        frontController.exit();
     }
 
 }

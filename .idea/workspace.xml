@@ -65,32 +65,36 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="MyLibgdxGame" />
+    <favorites_list name="MyLibgdxGame">
+      <favorite_root url="jar://$USER_HOME$/eclipse/adt-bundle-linux-x86_64-20131030/sdk/platforms/android-19/android.jar!/android/content/Context.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DesktopStarter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/com/example/mylibgxgame/DesktopStarter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FrontController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+            <state line="25" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="-11.666667" vertical-offset="0" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenu.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/MainMenu.java">
+      <file leaf-file-name="DBHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/DBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="41" selection-start="6075" selection-end="6075" vertical-scroll-proportion="0.72968197" vertical-offset="1327" max-vertical-offset="2940">
+            <state line="34" column="41" selection-start="981" selection-end="981" vertical-scroll-proportion="0.5782313" vertical-offset="0" max-vertical-offset="882">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionResolver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="31" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -115,22 +119,27 @@
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/SettingsMenuController.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/MainMenuController.java" />
         <option value="$PROJECT_DIR$/Main/src/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/MyLibgdxGame.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/LevelController.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/modules/Levels.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/modules/Level.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/Splash.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/LevelSelectorMenu.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/MainMenu.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/LevelScreen.java" />
         <option value="$PROJECT_DIR$/Android/assets/ui/menuSkin.json" />
         <option value="$PROJECT_DIR$/Desktop/src/com/example/mylibgxgame/DesktopStarter.java" />
         <option value="$PROJECT_DIR$/Android/assets/maps/firstlvl.tmx" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/SettingsMenu.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/StaminaController.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/MainMenu.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/SettingsController.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/LevelSelectorController.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/MainController.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/SettingsMenu.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/MyLibgdxGame.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/DataController.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolve.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/DBHelper.java" />
       </list>
     </option>
   </component>
@@ -196,6 +205,86 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyLibgdxGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 19 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyLibgdxGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 19 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyLibgdxGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 19 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyLibgdxGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 19 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -288,6 +377,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyLibgdxGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mylibgdxgame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -325,6 +436,10 @@
               <option name="myItemId" value="MyLibgdxGame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -347,7 +462,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -586,15 +701,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657078" sideWeight="0.3298969" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3300813" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18578352" sideWeight="0.6680412" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30363035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30363035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="104" y="247" width="1146" height="528" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -768,13 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/modules/Levels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="50" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="1513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/files/FileHandle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="18" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.33333334" vertical-offset="660" max-vertical-offset="10540" />
@@ -810,48 +918,6 @@
         <state line="182" column="0" selection-start="8770" selection-end="8770" vertical-scroll-proportion="0.0" vertical-offset="2392" max-vertical-offset="11611" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="333" selection-end="333" vertical-scroll-proportion="0.37562189" vertical-offset="53" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/SettingsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="35" selection-start="556" selection-end="556" vertical-scroll-proportion="0.78855723" vertical-offset="6" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/LevelSelectorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/SettingsMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="4" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.5311973" vertical-offset="0" max-vertical-offset="3120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/example/mylibgxgame/DesktopStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/MyLibgdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="0.22277227" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/LevelScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="625" selection-end="625" vertical-scroll-proportion="0.17326732" vertical-offset="0" max-vertical-offset="1470">
@@ -866,17 +932,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java">
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/SettingsMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+        <state line="39" column="0" selection-start="1339" selection-end="1339" vertical-scroll-proportion="-0.37942666" vertical-offset="540" max-vertical-offset="3120">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/StaminaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding>
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="41" selection-start="6075" selection-end="6075" vertical-scroll-proportion="0.72968197" vertical-offset="1327" max-vertical-offset="2940">
+        <state line="42" column="0" selection-start="1423" selection-end="1423" vertical-scroll-proportion="2.0370371" vertical-offset="415" max-vertical-offset="3090">
+          <folding>
+            <element signature="e#5636#5812#0" expanded="true" />
+            <element signature="e#5801#5802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/LevelSelectorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="44" selection-start="1662" selection-end="1662" vertical-scroll-proportion="1.1633663" vertical-offset="0" max-vertical-offset="945">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/modules/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="301" selection-end="301" vertical-scroll-proportion="0.3960396" vertical-offset="0" max-vertical-offset="606">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/SettingsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="365" selection-end="432" vertical-scroll-proportion="0.27227724" vertical-offset="0" max-vertical-offset="606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/modules/Levels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="106" selection-end="155" vertical-scroll-proportion="0.06802721" vertical-offset="0" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="-11.666667" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/com/example/mylibgxgame/DesktopStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="708" selection-end="708" vertical-scroll-proportion="0.32312927" vertical-offset="0" max-vertical-offset="882">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/MyLibgdxGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="64" selection-start="263" selection-end="263" vertical-scroll-proportion="0.20408164" vertical-offset="0" max-vertical-offset="882">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="41" selection-start="981" selection-end="981" vertical-scroll-proportion="0.5782313" vertical-offset="0" max-vertical-offset="882">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
