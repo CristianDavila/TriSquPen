@@ -1,6 +1,7 @@
 package com.example.mylibgdxgame;
 
 import com.badlogic.gdx.Game;
+import com.example.mylibgdxgame.interfaces.ActionResolver;
 import com.example.mylibgdxgame.screens.Splash;
 
 
@@ -10,10 +11,17 @@ import com.example.mylibgdxgame.screens.Splash;
 
 public class MyLibgdxGame extends Game {
 
+    private ActionResolver actionResolver;
+
     public static String title = "TriSquPen", version = "0.0.0.1";
+
+    public MyLibgdxGame(ActionResolver actionResolver) {
+        this.actionResolver = actionResolver;
+    }
 
     @Override
     public void create() {
+        actionResolver.openURL("URL(Estamos en): ");
         setScreen(new Splash());
     }
 
