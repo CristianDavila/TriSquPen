@@ -80,10 +80,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBHelper.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DBHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/DBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="46" selection-start="125" selection-end="125" vertical-scroll-proportion="0.08503401" vertical-offset="0" max-vertical-offset="882">
+            <state line="5" column="22" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBAndroidHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/src/DB/DBAndroidHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="81" selection-start="210" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBDesktopHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Desktop/src/DB/DBDesktopHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.25510204" vertical-offset="0" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -92,7 +112,7 @@
       <file leaf-file-name="ActionResolver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="6" column="31" selection-start="110" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -137,7 +157,9 @@
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/DataController.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolve.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java" />
+        <option value="$PROJECT_DIR$/Android/src/DB/DBAndroidHelper.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/DBHelper.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/DB/DBDesktopHelper.java" />
       </list>
     </option>
   </component>
@@ -431,6 +453,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="DB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyLibgdxGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mylibgxgame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -442,6 +482,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyLibgdxGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1056,14 +1114,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="6" column="31" selection-start="110" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="125" selection-end="125" vertical-scroll-proportion="0.08503401" vertical-offset="0" max-vertical-offset="882">
+        <state line="5" column="22" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/src/DB/DBAndroidHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="81" selection-start="210" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/DB/DBDesktopHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.25510204" vertical-offset="0" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
