@@ -1,6 +1,8 @@
 package com.example.mylibgdxgame;
 
 import com.badlogic.gdx.Game;
+import com.badlogic.gdx.Gdx;
+import com.example.mylibgdxgame.controllers.FrontController;
 import com.example.mylibgdxgame.interfaces.ActionResolver;
 import com.example.mylibgdxgame.screens.Splash;
 
@@ -21,6 +23,11 @@ public class MyLibgdxGame extends Game {
 
     @Override
     public void create() {
+        switch (Gdx.app.getType()) {
+            case Android:
+                new FrontController(actionResolver);
+                break;
+        }
         actionResolver.openURL("URL(Estamos en): ");
         setScreen(new Splash());
     }

@@ -17,6 +17,7 @@ public class FrontController {
     private static SettingsController settingsController;
     private static StaminaController staminaController;
     private static ActionResolver actionResolver;
+    private static LwjglApplication application;
 
     public FrontController(LwjglApplicationConfiguration config, ActionResolver actionResolver) {
         this.config = config;
@@ -27,24 +28,39 @@ public class FrontController {
         this.actionResolver = actionResolver;
     }
 
+    public FrontController(ActionResolver actionResolver) {
+        mainController = new MainController(this);
+        levelSelectorController = new LevelSelectorController(this);
+        settingsController = new SettingsController(this);
+        this.actionResolver = actionResolver;
+    }
+
     public static void main(){
-        new LwjglApplication(new MyLibgdxGame(actionResolver),config);
+        application = new LwjglApplication(new MyLibgdxGame(actionResolver),config);
     }
 
     public static void mainMenu() {
-        MainController.main();
+        mainController.main();
     }
 
     public static void levelSelectorMenu() {
-        LevelSelectorController.main();
+        levelSelectorController.main();
     }
 
     public static void settingsMenu() {
-        SettingsController.main();
+        settingsController.main();
     }
 
     public static void exit() {
-        Gdx.app.exit();
+        switch (Gdx.app.getType()) {
+            case Android:
+                Gdx.app.exit();
+                break;
+
+            case Desktop:
+                application.exit();
+                break;
+        }
     }
 
 }
