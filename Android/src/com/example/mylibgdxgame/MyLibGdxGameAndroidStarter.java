@@ -55,6 +55,11 @@ public class MyLibGdxGameAndroidStarter extends AndroidApplication implements Ac
         DataBaseManager.insertTableUser(user_name,user_pass);
     }
 
+    @Override
+    public String[] selectTableUser(String new_user) {
+        return DataBaseManager.selectTableUser(new_user);
+    }
+
     Handler uiThread;
     Context appContext;
 

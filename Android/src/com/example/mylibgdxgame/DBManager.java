@@ -1,6 +1,7 @@
 package com.example.mylibgdxgame;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 /**
@@ -68,6 +69,31 @@ public class DBManager {
         db.execSQL(INSERT_ON_TABLE); //si hay error devuelve -1, sino un valor random
 
     }
+
+    public String[] selectTableUser(String new_user){
+        //mira si existe un usuario y lo devuelve si existe, sino devuelve null en sus campos
+        String[] user = new String[3];
+
+        String  TABLE_NAME = "Users";
+        String  NAME = new_user;
+        String  INSERT_ON_TABLE = "SELECT * FROM " + TABLE_NAME + " WHERE Name = "+NAME+");";
+
+        Cursor c = db.rawQuery(INSERT_ON_TABLE, null); //si hay error devuelve -1, sino un valor random
+
+        if(c.moveToFirst()){
+            user[0] = c.getString(1);
+            user[1] = c.getString(2);
+            user[2] = c.getString(3);
+        }
+        else{
+            user[0] = "null";
+            user[1] = "null";
+            user[2] = "null";
+        }
+        return user;
+
+    }
+
 
     public void delete(){
        //falta implementar

@@ -17,5 +17,6 @@ public interface ActionResolver {
 
     public void insertTableUsers(String user_name,  String user_pass);
 
+    public String[] selectTableUser(String new_user);
 
 }

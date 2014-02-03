@@ -17,6 +17,7 @@ public class FrontController {
     private static StaminaController staminaController;
     private static ActionResolver actionResolver;
     private static LwjglApplication application;
+    private static UserController userController;
 
     public FrontController(LwjglApplicationConfiguration config, ActionResolver actionResolver) {
         this.config = config;
@@ -25,13 +26,16 @@ public class FrontController {
         settingsController = new SettingsController(this);
         staminaController = new StaminaController();
         this.actionResolver = actionResolver;
+        userController = new UserController(actionResolver);
     }
 
     public FrontController(ActionResolver actionResolver) {
         mainController = new MainController(this);
         levelSelectorController = new LevelSelectorController(this);
         settingsController = new SettingsController(this);
+        staminaController = new StaminaController();
         this.actionResolver = actionResolver;
+        userController = new UserController(actionResolver);
     }
 
     public static void main(){
