@@ -71,48 +71,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="FrontController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="52" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1005">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MyLibgdxGame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/MyLibgdxGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="26" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="990">
+            <state line="28" column="22" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLibGdxGameAndroidStarter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainMenu.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="0" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.49122807" vertical-offset="185" max-vertical-offset="3030">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLibGdxGameAndroidStarter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Android/src/com/example/mylibgdxgame/MyLibGdxGameAndroidStarter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.34013605" vertical-offset="0" max-vertical-offset="882">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBHelperAndroid.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android/src/com/example/mylibgdxgame/DBHelperAndroid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionResolver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="36" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android/src/com/example/mylibgdxgame/DBManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="64" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+            <state line="43" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -146,7 +144,6 @@
         <option value="$PROJECT_DIR$/Android/assets/maps/firstlvl.tmx" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/SettingsMenu.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/StaminaController.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/MainMenu.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/SettingsController.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/LevelSelectorController.java" />
@@ -155,15 +152,16 @@
         <option value="$PROJECT_DIR$/Android/src/DB/DBAndroidHelper.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/DBHelper.java" />
         <option value="$PROJECT_DIR$/Desktop/src/DB/DBDesktopHelper.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/MyLibgdxGame.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java" />
         <option value="$PROJECT_DIR$/Desktop/src/com/example/mylibgxgame/DesktopStarter.java" />
-        <option value="$PROJECT_DIR$/Android/src/com/example/mylibgdxgame/MyLibGdxGameAndroidStarter.java" />
         <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/modules/DBHelper.java" />
         <option value="$PROJECT_DIR$/Desktop/src/com/example/mylibgxgame/DBHelperAndroid.java" />
         <option value="$PROJECT_DIR$/Android/src/com/example/mylibgdxgame/DBManager.java" />
         <option value="$PROJECT_DIR$/Android/src/com/example/mylibgdxgame/DBHelperAndroid.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java" />
+        <option value="$PROJECT_DIR$/Android/src/com/example/mylibgdxgame/MyLibGdxGameAndroidStarter.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/MyLibgdxGame.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/MainMenu.java" />
       </list>
     </option>
   </component>
@@ -556,7 +554,7 @@
       <recent name="C:\Users\Dídac\Documents\IdeaProjects\MyLibgdxGame\Main\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesktopStarter">
+  <component name="RunManager" selected="Android Application.Android">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -706,8 +704,30 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="Android" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="Android" />
+      <option name="ACTIVITY_CLASS" value="com.example.mylibgdxgame.MyLibGdxGameAndroidStarter" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.DesktopStarter" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.Android" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -742,7 +762,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1028" width="1282" height="1029" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -755,7 +775,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657078" sideWeight="0.3298969" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -769,9 +790,37 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="104" y="247" width="1146" height="528" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11755486" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17932148" sideWeight="0.6680412" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30143014" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657078" sideWeight="0.3298969" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.json" />
@@ -813,7 +862,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/com/example/mylibgxgame/DesktopStarter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680" />
+        <state line="21" column="32" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java">
@@ -891,11 +944,6 @@
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/ApplicationListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.48657718" vertical-offset="152" max-vertical-offset="816" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="16" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.33333334" vertical-offset="597" max-vertical-offset="1037" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Desktop/libs/gdx-backend-lwjgl.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplicationConfiguration.class">
@@ -992,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/Splash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="26" selection-start="2550" selection-end="2550" vertical-scroll-proportion="1.0" vertical-offset="277" max-vertical-offset="1365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/SettingsMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="1339" selection-end="1339" vertical-scroll-proportion="-0.37942666" vertical-offset="540" max-vertical-offset="3120">
@@ -1012,16 +1053,6 @@
           <folding>
             <element signature="e#477#478#0" expanded="false" />
             <element signature="e#507#508#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1423" selection-end="1423" vertical-scroll-proportion="2.0370371" vertical-offset="415" max-vertical-offset="3090">
-          <folding>
-            <element signature="e#5636#5812#0" expanded="false" />
-            <element signature="e#5801#5802#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1063,35 +1094,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="30" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/com/example/mylibgxgame/DesktopStarter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/MyLibgdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="26" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="930">
-          <folding />
+        <state line="32" column="5" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Android/src/com/example/mylibgdxgame/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="64" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
@@ -1105,9 +1119,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/interfaces/ActionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Android/src/com/example/mylibgdxgame/MyLibGdxGameAndroidStarter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.34013605" vertical-offset="0" max-vertical-offset="882">
+        <state line="43" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/MyLibgdxGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="22" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/controllers/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="52" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/Splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="26" selection-start="2550" selection-end="2550" vertical-scroll-proportion="1.0403509" vertical-offset="277" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/com/example/mylibgdxgame/screens/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.49122807" vertical-offset="185" max-vertical-offset="3030">
           <folding />
         </state>
       </provider>

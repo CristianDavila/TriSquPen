@@ -47,6 +47,7 @@ public class MainMenu implements Screen {
         Gdx.input.setInputProcessor(stage); // needed for user input handling
 
         // atlas is the texture of the buttons, selections, scrolls...
+
         skin = new Skin( Gdx.files.internal("ui/menuSkin.json"), new TextureAtlas("ui/atlas.pack") ); //contains all the styles(fonts, colours, alignment) of the User Interface components
 
         table = new Table(skin); //used to align the components on the screen

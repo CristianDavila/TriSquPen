@@ -3,7 +3,6 @@ package com.example.mylibgdxgame.controllers;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.example.mylibgdxgame.MyLibgdxGame;
 import com.example.mylibgdxgame.interfaces.ActionResolver;
 

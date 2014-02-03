@@ -1,6 +1,7 @@
 package com.example.mylibgdxgame;
 
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -13,6 +14,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class MyLibGdxGameAndroidStarter extends AndroidApplication implements ActionResolver{
+
+    private DBHelperAndroid DataBaseHelperAndroid;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,13 +28,21 @@ public class MyLibGdxGameAndroidStarter extends AndroidApplication implements Ac
         initialize(new MyLibgdxGame(this), cfg);
     }
 
+
+
     @Override
-    public void openURL(String url) {
-        System.out.print(url+"android");
+    public void createDB(){
+        DataBaseHelperAndroid = new DBHelperAndroid(this);
+        SQLiteDatabase db = DataBaseHelperAndroid.getWritableDatabase(); //Si la base existe, la devuelve, sino la crea y la devuelve
+
     }
 
     Handler uiThread;
     Context appContext;
+
+    public MyLibGdxGameAndroidStarter() {
+
+    }
 
     public MyLibGdxGameAndroidStarter(Context appContext) {
         uiThread = new Handler();

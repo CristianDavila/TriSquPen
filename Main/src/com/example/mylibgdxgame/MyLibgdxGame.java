@@ -28,7 +28,7 @@ public class MyLibgdxGame extends Game {
                 new FrontController(actionResolver);
                 break;
         }
-        actionResolver.openURL("URL(Estamos en): ");
+
         setScreen(new Splash());
     }
 

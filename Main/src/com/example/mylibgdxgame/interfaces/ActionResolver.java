@@ -6,6 +6,8 @@ package com.example.mylibgdxgame.interfaces;
 
 public interface ActionResolver {
 
-    public void openURL(String url);
+
+    public void createDB();
+
 
 }
