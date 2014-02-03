@@ -11,7 +11,7 @@ public class DBHelperAndroid extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "users.sqlite";
 
-    private DBManager DataBaseManager = new DBManager();
+
 
     private static final int DB_SCHEME_VERSION = 1;
     //la version del scheme sirve para futuras versiones de la base de datos (no le hagais caso)
@@ -25,8 +25,7 @@ public class DBHelperAndroid extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sentence = DataBaseManager.createTable("User");
-        db.execSQL(sentence);
+
     }
 
     @Override

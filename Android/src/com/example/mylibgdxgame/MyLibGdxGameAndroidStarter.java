@@ -1,7 +1,6 @@
 package com.example.mylibgdxgame;
 
 import android.content.Context;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -15,7 +14,8 @@ import java.sql.SQLException;
 
 public class MyLibGdxGameAndroidStarter extends AndroidApplication implements ActionResolver{
 
-    private DBHelperAndroid DataBaseHelperAndroid;
+
+    private DBManager DataBaseManager;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,10 +31,28 @@ public class MyLibGdxGameAndroidStarter extends AndroidApplication implements Ac
 
 
     @Override
-    public void createDB(){
-        DataBaseHelperAndroid = new DBHelperAndroid(this);
-        SQLiteDatabase db = DataBaseHelperAndroid.getWritableDatabase(); //Si la base existe, la devuelve, sino la crea y la devuelve
+    public void getDB(){
+        DataBaseManager= new DBManager(this);
+    }
 
+    @Override
+    public void createTablePuntuaciones(String TABLE_NAME) {
+       DataBaseManager.createTablePuntuaciones(TABLE_NAME);
+    }
+
+    @Override
+    public void createTableUsers() {
+        DataBaseManager.createTableUsers();
+    }
+
+    @Override
+    public void insertTablePuntuaciones(String TABLE_NAME, String new_name, int new_level, int new_punt) {
+        DataBaseManager.insertTablePuntuaciones(TABLE_NAME, new_name, new_level, new_punt);
+    }
+
+    @Override
+    public void insertTableUsers(String user_name, String user_pass) {
+        DataBaseManager.insertTableUser(user_name,user_pass);
     }
 
     Handler uiThread;
