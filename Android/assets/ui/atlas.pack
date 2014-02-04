@@ -1,54 +1,53 @@
+
 atlas.png
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-checkbox.off
+checkbox.off.9.png
   rotate: false
-  xy: 0, 10
-  size: 32, 32
-  orig: 32, 32
+  xy: 1, 17
+  size: 34, 34
+  orig: 34, 34
   offset: 0, 0
   index: -1
-checkbox.on
+checkbox.on.9.png
   rotate: false
-  xy: 32, 10
-  size: 32, 32
-  orig: 32, 32
+  xy: 37, 17
+  size: 34, 34
+  orig: 34, 34
   offset: 0, 0
   index: -1
-checkbox.over
+checkbox.over.9.png
   rotate: false
-  xy: 64, 10
-  size: 32, 32
-  orig: 32, 32
+  xy: 73, 17
+  size: 34, 34
+  orig: 34, 34
   offset: 0, 0
   index: -1
-button.down
+button.down.9.png
   rotate: false
-  xy: 0, 1
-  size: 9, 9
-  split: 2, 2, 2, 3
-  orig: 9, 9
+  xy: 1, 4
+  size: 11, 11
+  orig: 11, 11
   offset: 0, 0
   index: -1
-button.up
+button.up.9.png
   rotate: false
-  xy: 96, 33
-  size: 9, 9
-  split: 1, 2, 1, 2
-  orig: 9, 9
+  xy: 109, 40
+  size: 11, 11
+  orig: 11, 11
   offset: 0, 0
   index: -1
-default.background
+default.background.9.png
   rotate: false
-  xy: 0, 0
+  xy: 1, 1
   size: 1, 1
   orig: 1, 1
   offset: 0, 0
   index: -1
-default.selection
+default.selection.9.png
   rotate: false
-  xy: 9, 9
+  xy: 14, 14
   size: 1, 1
   orig: 1, 1
   offset: 0, 0

@@ -43,6 +43,16 @@ public class FrontController {
     }
 
     public static void mainMenu() {
+        System.out.println("///////////////");
+        System.out.println("///////////////");
+        for(int i=0; i<10; ++i) System.out.println(".");
+        actionResolver.getDB();
+        actionResolver.createTableUsers();
+        actionResolver.insertTableUsers("eey", "didac_tonto");
+        actionResolver.createTablePuntuaciones("eeyTable");
+        actionResolver.insertTablePuntuaciones("eeyTable",1,1000);
+        String[] aux = actionResolver.selectTableUser("eey");
+        for(int i=0; i<aux.length; ++i) System.out.println(aux[i]);
         mainController.main();
     }
 

@@ -46,8 +46,8 @@ public class MyLibGdxGameAndroidStarter extends AndroidApplication implements Ac
     }
 
     @Override
-    public void insertTablePuntuaciones(String TABLE_NAME, String new_name, int new_level, int new_punt) {
-        DataBaseManager.insertTablePuntuaciones(TABLE_NAME, new_name, new_level, new_punt);
+    public void insertTablePuntuaciones(String TABLE_NAME, int new_level, int new_punt) {
+        DataBaseManager.insertTablePuntuaciones(TABLE_NAME, new_level, new_punt);
     }
 
     @Override
@@ -58,6 +58,11 @@ public class MyLibGdxGameAndroidStarter extends AndroidApplication implements Ac
     @Override
     public String[] selectTableUser(String new_user) {
         return DataBaseManager.selectTableUser(new_user);
+    }
+
+    @Override
+    public void deleteTable(String nameTable) {
+        DataBaseManager.deleteTable(nameTable);
     }
 
     Handler uiThread;
